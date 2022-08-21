@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
               fontSize: 80,
             ),
           ),
-         
+          Row(),
         ],
       ),
     );
