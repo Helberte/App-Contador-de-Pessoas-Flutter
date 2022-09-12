@@ -21,25 +21,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: const [
-          Text(
-            'Pode entrar!',
-            style: TextStyle(
-              color: Colors.black,
-              fontSize: 33,
-            ),
-          ),
-          Text(
-            '0',
-            style: TextStyle(
-              fontSize: 80,
-            ),
-          ),
-          Row(),
-        ],
-      ),
+      body:
+          Column(mainAxisAlignment: MainAxisAlignment.center, children: const [
+        Text(
+          "Pode Entrar",
+          style: TextStyle(color: Colors.black, fontSize: 30),
+        ),
+      ]),
     );
   }
 }
